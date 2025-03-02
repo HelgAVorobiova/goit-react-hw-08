@@ -1,0 +1,9 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  background: linear-gradient(135deg,  #87CEFA , #4682B4);
+  color: #e0ffff;
+  box-shadow: 0 2px 5px rgba(0, 51, 102, 0.1);
+}

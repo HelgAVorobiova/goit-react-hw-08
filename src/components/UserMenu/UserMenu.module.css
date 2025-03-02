@@ -1,0 +1,22 @@
+.wrapper{
+display: flex;
+width: 300px;
+justify-content: center;
+align-items: center;
+}
+.userName{
+margin-right: 20px;
+}
+.logoutBtn{
+background: linear-gradient(135deg,  #87CEFA , #4682B4);
+  color: white;
+  padding: 10px;
+  width: 120px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.logoutBtn:hover{
+    transform: scale(1.05);
+}

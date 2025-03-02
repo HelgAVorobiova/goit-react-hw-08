@@ -1,0 +1,32 @@
+.searchBoxWrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 25px;
+}
+
+.searchBoxLabel {
+  font-size: 16px;
+  font-weight: 500;
+  color: #4682b4;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.searchBoxInput {
+  
+  max-width: 400px;
+  padding: 10px;
+  border: 2px solid #4682b4;
+  border-radius: 8px;
+  outline: none;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.searchBoxInput:focus {
+  border-color: rgba(65, 105, 225);
+  box-shadow: 0 0 5px rgba(65, 105, 225, 0.5);
+  transform: scale(1.05);
+}
